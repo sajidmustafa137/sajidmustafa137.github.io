@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Work Sans", sans-serif;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(40, 40, 100);
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: rgb(130, 130, 190);
+}
+
+#navbar {
+    background-color: rgb(40, 40, 100);
+    color: white;
+
+    display: flex;
+    justify-content: end;
+}
+
+#content {
+    background-color: rgb(100, 100, 143);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1em 0em;
+}
+
+#footer {
+    background-color: rgb(40, 40, 100);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1em;
+}
+
+#current-page {
+    font-weight: bold;
+}
+
+#banner {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+#banner-img {
+    width: 70%;
+}
+
+#sleep-calculator {
+    border: solid white 
+}
+
+.nav-item {
+    border-left: solid white 0.05em;
+    border-right: solid white 0.05em;
+
+    font-size: 1.5em;
+
+    padding: 0.2em 2em;
+    margin: 1em;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header {
+    margin: 0.25em;
+    margin-bottom: 0em;
+    font-size: 2em;
+}
+
+.text {
+    margin: 0.5em;
+    font-size: 1em;
+}
